@@ -14,6 +14,12 @@ vcpkg_installed/
 vcpkg_installed/*/
 vcpkg_installed/**
 
+# Exceptions for binaries of EasyIPC
+!EasyIPC/lib/x86
+!EasyIPC/lib/x64
+!EasyIPC/lib/x86/*
+!EasyIPC/lib/x64/*
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
