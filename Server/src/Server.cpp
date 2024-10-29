@@ -3,7 +3,6 @@
 #include "EasyIPC/Server.h"
 #include "EasyIPC/Encryption/AesEaxEncryptionStrategy.h"
 
-#include <fmt/format.h>
 #include <Windows.h>
 
 bool isKeyPressed(int key)

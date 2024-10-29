@@ -3,7 +3,6 @@
 #include "EasyIPC/Client.h"
 #include "EasyIPC/Encryption/AesEaxEncryptionStrategy.h"
 
-#include <fmt/format.h>
 #include <Windows.h>
 
 #define KEY_G 0x47
