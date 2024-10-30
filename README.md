@@ -1,3 +1,5 @@
+![banner](https://i.imgur.com/jN0GBtS.png)
+
 # EasyIPC-example
 
 The accompanying example VS solution featuring a Client and Server project.  
@@ -13,3 +15,7 @@ Pressing SPACE in the server terminal will emit the current dummy value to all c
 Note: Since this example uses GetAsyncKeyState, if you open multiple clients and press G it  
 would trigger for all clients hence you will see duplicate messages.
 But this has more to do with GetAsyncKeyState.
+
+Here is a small gif showing one server terminal emitting events to many clients:
+
+![example-with-many-clients](https://i.imgur.com/SV4wRQd.gif)
